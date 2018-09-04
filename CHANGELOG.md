@@ -30,6 +30,7 @@ For a complete change history, see the git log.
 
 #### Plugins
 
+- GDAL: Use GDAL for overview selection and resampling instead of trying to do it in mapnik ([#3966](https://github.com/mapnik/mapnik/issues/3966))
 - GDAL: fixed several issues with overviews ([#3912](https://github.com/mapnik/mapnik/issues/3912))
 - PostGIS: changed syntax for user `@variable` interpolation to `!@variable!` ([#3618](https://github.com/mapnik/mapnik/issues/3618))
 - PostGIS: using parameter `estimate_extent` now requires PostGIS >= 2.1.0 ([#3624](https://github.com/mapnik/mapnik/issues/3624))
